@@ -1,5 +1,5 @@
 # E-Commerce-Sales-Dashboard
-Description
+Description:
 Analyzed 500K+ e-commerce transactions using Python for ETL, SQL for aggregations, and Power BI for an interactive dashboard. Identifies KPIs, revenue trends, customer segmentation, and drivers to support business decisions.
 
 Skills: SQL, Python, Power BI, Data Visualization, Problem Solving.
