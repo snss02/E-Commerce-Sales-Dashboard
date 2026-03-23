@@ -1,0 +1,32 @@
+Customer LTV =
+SUMX(
+    VALUES(cleaned_ecommerce_data1[customer_unique_id]),
+    CALCULATE(SUM(cleaned_ecommerce_data1[revenue]))
+)
+
+
+customer_segment =
+VAR ltv =
+    CALCULATE(SUM(cleaned_ecommerce_data1[revenue]),
+        ALLEXCEPT(cleaned_ecommerce_data1,
+            cleaned_ecommerce_data1[customer_unique_id]))
+RETURN
+    IF(ltv >= 1000, "High Value",
+        IF(ltv >= 300, "Mid Value", "Low Value"))
+
+
+
+day_of_week = FORMAT(sales_data[order_purchase_timestamp], "dddd")
+
+order_month = FORMAT(sales_data[order_purchase_timestamp], "YYYY-MM")
+order_quarter = "Q" & QUARTER(sales_data[order_purchase_timestamp])
+    & " " & YEAR(sales_data[order_purchase_timestamp])
+
+
+
+
+Top Category Revenue =
+MAXX(
+    VALUES(sales_data[product_category_name_english]),
+    CALCULATE(SUM(sales_data[revenue]))
+)
