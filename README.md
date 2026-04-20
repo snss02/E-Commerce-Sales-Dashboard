@@ -11,12 +11,18 @@ Raw Data (Kaggle) → Python ETL → SQL Aggregations → Power BI Dashboard
 1. Prerequisites: Google Colab, MySQL Workbench, Power BI Desktop.
 2. Dataset: Download Brazilian E-Commerce Public Dataset from Kaggle.
 3. Libraries: Pandas, NumPy (pre-installed in Colab).
+
+
 **Usage**
 1. ETL: Run ECommerce_ETL_Cleaning.ipynb in Colab to clean and export data.
 2. SQL: Import data into MySQL, run aggregations.sql for KPIs/trends.
 3. Dashboard: Open ECommerce_Sales_Dashboard.pbix in Power BI, import CSVs, and interact.
+
+
 **Dataset**
-4. Source: Kaggle (Brazilian E-Commerce Public Dataset).
+
+
+ Source: Kaggle (Brazilian E-Commerce Public Dataset).
 
 ## ETL Pipeline (Python/Colab):
 
@@ -60,6 +66,8 @@ Features: Orders, items, customers, products.
 4. Actionable: Target VIP customers with loyalty programs
 
 **Conclusion**
+
+
 Enables targeting high-value customers and optimizing revenue drivers. ETL/SQL ensures accuracy; Power BI provides interactivity.
 
 Skills: Python (Pandas, NumPy), SQL (MySQL), Power BI (DAX, relationships), RFM Analysis, ETL
