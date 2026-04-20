@@ -1,13 +1,13 @@
 # E-Commerce-Sales-Dashboard
 
-##Problem Statement
+## Problem Statement
 Analyze 100K+ e-commerce transactions to uncover revenue drivers, customer behavior patterns, and growth opportunities for strategic decision-making.
 Skills: SQL, Python, Power BI, Data Visualization, Problem Solving.
 
-##Technical Approach
+## Technical Approach
 Raw Data (Kaggle) → Python ETL → SQL Aggregations → Power BI Dashboard
-
-##Installation
+ 
+## Installation
 Prerequisites: Google Colab, MySQL Workbench, Power BI Desktop.
 Dataset: Download Brazilian E-Commerce Public Dataset from Kaggle.
 Libraries: Pandas, NumPy (pre-installed in Colab).
@@ -18,7 +18,7 @@ Dashboard: Open ECommerce_Sales_Dashboard.pbix in Power BI, import CSVs, and int
 Dataset
 Source: Kaggle (Brazilian E-Commerce Public Dataset).
 
-##ETL Pipeline (Python/Colab):
+## ETL Pipeline (Python/Colab):
 
 Merged 5 datasets (99K orders + 112K items → 108K cleaned records)
 Feature engineering: Revenue calculation, data type conversions
@@ -27,7 +27,7 @@ Handled missing values, duplicates, and date parsing
 Size: ~99K orders, ~112K items.
 Features: Orders, items, customers, products.
 
-##SQL Aggregations (MySQL):
+## SQL Aggregations (MySQL):
 KPIs: Total Revenue, AOV, Orders
 Trends: Monthly revenue analysis
 Segmentation: RFM (Recency, Frequency, Monetary)
@@ -35,7 +35,7 @@ Drivers: Top product categories
 
 
 
-##Power BI Dashboard Features:
+## Power BI Dashboard Features:
 
 Interactive KPIs: Revenue, orders, AOV cards
 Revenue Trends: Line chart with dual-axis (revenue + orders)
@@ -44,7 +44,7 @@ Revenue Drivers: Top 10 categories bar chart
 Slicers: Date range, category, region filters
 
 
-##Results
+## Results
 KPIs: Revenue ~15M
 Orders~95K
 Unique Customers~92K
@@ -53,7 +53,7 @@ Trends: Q4 peaks.
 Segmentation: Top 10% customers.
 Drivers: Top categories (e.g., electronics).
 
-##Business Impact
+## Business Impact
 Identified: Top 10% high-value customers (40% of revenue)
 Revenue Drivers: Electronics/home goods = 50% of sales
 Trends: Q4 seasonal peaks for inventory planning
