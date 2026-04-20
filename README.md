@@ -59,7 +59,7 @@ Features: Orders, items, customers, products.
 3. Trends: Q4 seasonal peaks for inventory planning
 4. Actionable: Target VIP customers with loyalty programs
 
-Conclusion
+**Conclusion**
 Enables targeting high-value customers and optimizing revenue drivers. ETL/SQL ensures accuracy; Power BI provides interactivity.
 
 Skills: Python (Pandas, NumPy), SQL (MySQL), Power BI (DAX, relationships), RFM Analysis, ETL
