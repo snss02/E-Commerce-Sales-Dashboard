@@ -70,10 +70,19 @@ Features: Orders, items, customers, products.
 
 Enables targeting high-value customers and optimizing revenue drivers. ETL/SQL ensures accuracy; Power BI provides interactivity.
 
-Skills: Python (Pandas, NumPy), SQL (MySQL), Power BI (DAX, relationships), RFM Analysis, ETL
+## Skills:
+Python (Pandas, NumPy), SQL (MySQL), Power BI (DAX, relationships), ETL
+
+
+## Sneha 
+[LinkedIn](https://linkedin.com/in/sneha-sri-a38981229) | [Email](mailto:sneharsp.23@gmail.com) | [GitHub](https://github.com/snss02)
+
+
+Open to: Data Analyst, Data Scientist, BI Developer roles
+
 License
 MIT License.
 
 Author
 Sneha
-GitHub:https://github.com/snss02
+ 
