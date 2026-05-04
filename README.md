@@ -48,7 +48,9 @@ Features: Orders, items, customers, products.
 3. Customer Segmentation: RFM scatter plot (Champions vs At-Risk)
 4. Revenue Drivers: Top 10 categories bar chart
 5. Slicers: Date range, category, region filters
-
+<img src="pg1.png" width="500">
+<img src="pg2.png" width="500">
+<img src="pg3.png" width="500">
 
 ## Results
 1. KPIs: Revenue ~15M
