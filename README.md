@@ -50,7 +50,7 @@ Features: Orders, items, customers, products.
 5. Slicers: Date range, category, region filters
 <img src="pg1.png" width="500">
 <img src="pg2.png" width="500">
-<img src="pg3.png" width="500">
+<img src="pg3.png" width="500"> 
 
 ## Results
 1. KPIs: Revenue ~15M
